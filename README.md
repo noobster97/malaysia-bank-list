@@ -25,7 +25,8 @@ fetch('https://github.com/noobster97/malaysia-bank-list/banks.json')
   })
   .catch(error => console.error('Error fetching bank data:', error));
 
-Python Example
+### **Python Examplee**
+
 You can also use Python's requests module to fetch the JSON data.
 
 import requests
@@ -39,7 +40,9 @@ if response.status_code == 200:
 else:
     print("Failed to retrieve data.")
 
-Using the Data
+
+### **Using the Data**
+
 The JSON data includes the following fields for each bank:
 
 name: Name of the bank
@@ -48,7 +51,7 @@ code: The bank's code
 
 swift: The SWIFT/BIC code of the bank (if available)
 
-Example JSON Structure
+### **Example JSON Structure**
 
 [
   {
@@ -68,5 +71,6 @@ Example JSON Structure
   }
 ]
 
-Contributing
+### **Contributing**
+
 If you have additional banks or updates to the bank list, feel free to contribute by creating a pull request with your changes. Please ensure that the data format remains consistent with the current structure.
